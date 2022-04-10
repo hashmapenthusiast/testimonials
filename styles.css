@@ -1,0 +1,43 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+hr {
+    width: 300px;
+    height: 6px;
+    background-color: #2aa;
+    border: 0;
+}
+
+.testimonial{
+    margin-top: 20px;
+    max-width: 40em;
+    /* border: 3px solid black; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 5px 5px black;
+}
+
+p{
+    margin:0 4px;
+}
+
+#controls{
+    display: flex;
+    flex-direction: row;
+}
+
+.headshot {
+    padding: 10px;
+    border-radius: 50%;
+    height:100px;
+    width: 100px;
+}
+button{
+    margin: 5px 10px 5px 0;
+}
